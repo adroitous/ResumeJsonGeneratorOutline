@@ -1,0 +1,99 @@
+"""
+can you build my resume from this.
+Name: Vincent Lin
+Label: Software Engineer
+Email: Lin.vincent97@gmail.com
+Phone: 626-592-9130
+GitHub: https://github.com/adroitous
+Summary: Software Engineer with experience in backend development, distributed systems, testing infrastructure, and middleware-agnostic APIs.
+
+Work Experience:
+- Software Engineer at Arista Networks (2022-07-01 to 2024-06-01)
+  Worked on BFD protocols, test automation, customer escalations, and telemetry design.
+    • Implemented end-to-end testing solution for BFD team.
+    • Resolved major customer escalations (Microsoft, Netflix) and earned peer recognition.
+    • Led the conditional restart design for BFD, reducing memory usage by 45%.
+    • Automated BFD testing using Jenkins framework.
+    • Designed BFD telemetry for CloudVision.
+
+- Software Engineer III at General Dynamics Mission Systems (2019-09-01 to 2022-07-01)
+  Worked on microservices design for defense systems, communication APIs, middleware solutions, and CI/CD pipelines.
+    • Designed and led development of Mooring and Control Services.
+    • Created middleware-agnostic API supporting multiple communication patterns.
+    • Automated build and deployment with GitLab CI/CD and Docker.
+    • Ported communication software to hypervisor-based VxWorks embedded system.
+    • Led requirement design and stakeholder communications.
+
+- Research Assistant at University of Chicago (2018-06-01 to 2018-09-01)
+  Research on time series compression and clustering algorithms.
+    • Implemented K-Shape algorithm in C, outperforming Python/MATLAB versions.
+    • Built GPU and CPU parallelization systems for numerical optimization.
+    • Presented final results at REU program.
+
+- Data Science Intern at Service Management Group (2018-01-01 to 2018-02-01)
+  Worked on NLP and machine learning preprocessing pipelines.
+    • Implemented Word2Vec and GloVe models in Python.
+    • Improved data preprocessing efficiency by 50%.
+    • Built supervised and unsupervised models using PyTorch.
+
+- Esports Competitor at Competitive Esports (2024-06-01 to 2025-01-01)
+  Top-ranked player in North American Ladder for Teamfight Tactics.
+    • Reached Top 30 in a game with 33M monthly players.
+
+Education:
+- Bachelor in Philosophy (with Computer Science focus) at Williams College
+  Relevant Courses:
+    • Algorithms Design and Analysis
+    • Computer Organization
+    • Data Structures and Advanced Programming
+    • Real Analysis
+    • Linear Algebra
+    • Natural Language Processing
+    • Statistics & Data Analysis
+    • Discrete Mathematics
+    • Theory of Computation
+    • Operating Systems
+    • Principles of Programming Languages
+
+Skills:
+- Backend Development (Advanced):
+    • C++
+    • Python
+    • Java
+    • bash
+    • Kafka
+    • Cassandra
+    • DDS
+    • GRPC
+    • protobuf
+
+- Machine Learning (Intermediate):
+    • numpy
+    • scikit-learn
+    • pandas
+    • PyTorch
+    • Word2Vec
+    • GloVe
+
+- Software Management (Intermediate):
+    • SCRUM
+    • Jira
+    • Confluence
+    • GitLab
+    • GitHub
+
+Languages:
+- Chinese: Native proficiency
+- English: Professional working proficiency
+
+Projects:
+- Middleware Agnostic Communication API (2020-01-01 to 2022-01-01)
+  Designed an API to abstract communication patterns across different middleware technologies.
+    • Supported publish/subscribe, request/reply, send/receive patterns.
+    • Reduced future system's dependence on specific middleware.
+
+- BFD Telemetry for CloudVision (2023-01-01 to 2024-01-01)
+  Streamlined BFD telemetry data ingestion into CloudVision platform.
+    • Aligned telemetry output with CloudVision usage patterns.
+
+"""

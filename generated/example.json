@@ -1,0 +1,187 @@
+{
+    "basics": {
+      "name": "Vincent Lin",
+      "label": "Software Engineer",
+      "image": "",
+      "email": "Lin.vincent97@gmail.com",
+      "phone": "626-592-9130",
+      "summary": "Software Engineer with experience in backend development, distributed systems, testing infrastructure, and middleware-agnostic APIs.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "",
+        "countryCode": "US",
+        "region": ""
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "adroitous"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Arista Networks",
+        "position": "Software Engineer",
+        "startDate": "2022-07",
+        "endDate": "2024-06",
+        "summary": "Worked on BFD protocols, test automation, customer escalations, and telemetry design.",
+        "highlights": [
+          "Implemented end to end testing solution for BFD team.",
+          "Resolved major customer escalations (Microsoft, Netflix) and earned peer recognition.",
+          "Led the conditional restart design for BFD, reducing memory usage by 45%.",
+          "Automated BFD testing using Jenkins framework.",
+          "Designed BFD telemetry for CloudVision."
+        ]
+      },
+      {
+        "name": "General Dynamics Mission Systems",
+        "position": "Software Engineer III",
+        "startDate": "2019-09",
+        "endDate": "2022-07",
+        "summary": "Worked on microservices design for defense systems, communication APIs, middleware solutions, and CI/CD pipelines.",
+        "highlights": [
+          "Designed and led development of Mooring and Control Services.",
+          "Created middleware agnostic API supporting multiple communication patterns.",
+          "Automated build and deployment with GitLab CI/CD and Docker.",
+          "Ported communication software to hypervisor based VxWorks embedded system.",
+          "Led requirement design and stakeholder communications."
+        ]
+      },
+      {
+        "name": "University of Chicago",
+        "position": "Research Assistant",
+        "startDate": "2018-06",
+        "endDate": "2018-09",
+        "summary": "Research on time series compression and clustering algorithms.",
+        "highlights": [
+          "Implemented K Shape algorithm in C, outperforming Python/MATLAB versions.",
+          "Built GPU and CPU parallelization systems for numerical optimization.",
+          "Presented final results at REU program."
+        ]
+      },
+      {
+        "name": "Service Management Group",
+        "position": "Data Science Intern",
+        "startDate": "2018-01",
+        "endDate": "2018-02",
+        "summary": "Worked on NLP and machine learning preprocessing pipelines.",
+        "highlights": [
+          "Implemented Word2Vec and GloVe models in Python.",
+          "Improved data preprocessing efficiency by 50%.",
+          "Built supervised and unsupervised models using PyTorch."
+        ]
+      },
+      {
+        "name": "Competitive Esports",
+        "position": "Esports Competitor",
+        "startDate": "2024-06",
+        "endDate": "2025-01",
+        "summary": "Top ranked player in North American Ladder for Teamfight Tactics.",
+        "highlights": [
+          "Reached Top 30 in a game with 33M monthly players."
+        ]
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "Williams College",
+        "area": "Philosophy (with Computer Science focus)",
+        "studyType": "Bachelor",
+        "startDate": "2015",
+        "endDate": "2019",
+        "score": "",
+        "courses": [
+          "Algorithms Design and Analysis",
+          "Computer Organization",
+          "Data Structures and Advanced Programming",
+          "Real Analysis",
+          "Linear Algebra",
+          "Natural Language Processing",
+          "Statistics & Data Analysis",
+          "Discrete Mathematics",
+          "Theory of Computation",
+          "Operating Systems",
+          "Principles of Programming Languages"
+        ]
+      }
+    ],
+    "awards": [],
+    "certificates": [],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Backend Development",
+        "level": "Advanced",
+        "keywords": [
+          "C++",
+          "Python",
+          "Java",
+          "bash",
+          "Kafka",
+          "Cassandra",
+          "DDS",
+          "GRPC",
+          "protobuf"
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "level": "Intermediate",
+        "keywords": [
+          "numpy",
+          "scikit learn",
+          "pandas",
+          "PyTorch",
+          "Word2Vec",
+          "GloVe"
+        ]
+      },
+      {
+        "name": "Software Management",
+        "level": "Intermediate",
+        "keywords": [
+          "SCRUM",
+          "Jira",
+          "Confluence",
+          "GitLab",
+          "GitHub"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Chinese",
+        "fluency": "Native proficiency"
+      },
+      {
+        "language": "English",
+        "fluency": "Professional working proficiency"
+      }
+    ],
+    "interests": [],
+    "references": [],
+    "projects": [
+      {
+        "name": "Middleware Agnostic Communication API",
+        "startDate": "2020-01",
+        "endDate": "2022-01",
+        "description": "Designed an API to abstract communication patterns across different middleware technologies.",
+        "highlights": [
+          "Supported publish/subscribe, request/reply, send/receive patterns.",
+          "Reduced future system's dependence on specific middleware."
+        ]
+      },
+      {
+        "name": "BFD Telemetry for CloudVision",
+        "startDate": "2023-01",
+        "endDate": "2024-01",
+        "description": "Streamlined BFD telemetry data ingestion into CloudVision platform.",
+        "highlights": [
+          "Aligned telemetry output with CloudVision usage patterns."
+        ]
+      }
+    ]
+  }

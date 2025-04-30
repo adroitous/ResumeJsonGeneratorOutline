@@ -1,0 +1,122 @@
+{
+  "basics": {
+    "name": "Coffee the Dog",
+    "label": "Energetic Companion | Squirrel Surveillance Specialist | Snack Enthusiast",
+    "image": "",
+    "email": "woof@coffeethedog.dog",
+    "phone": "",
+    "url": "linkedin.com/in/coffeethedog",
+    "summary": "Loyal and enthusiastic 4-year-old Australian Shepherd with a proven track record in companionship, high-speed yard patrol, and advanced listening skills. Known for high energy, a friendly demeanor, and being the first to greet guests at the door. Seeking new opportunities to chase tennis balls, herd small humans, or simply be a very good dog.",
+    "location": {
+      "address": "Your Backyard",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "coffeethedog",
+        "url": "linkedin.com/in/coffeethedog"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Home Headquarters",
+      "position": "Couch Security Officer",
+      "startDate": "Jan 2021",
+      "endDate": "Present",
+      "summary": "Maintains vigilant presence on furniture, ensuring no crumbs are left uneaten. Specializes in detecting incoming delivery trucks before they even arrive. Provides emotional support and warmth during Netflix marathons.",
+      "highlights": []
+    },
+    {
+      "name": "Backyard Operations Unit",
+      "position": "Squirrel Patrol Agent",
+      "startDate": "Mar 2020",
+      "endDate": "Present",
+      "summary": "Successfully barked away over 200 squirrels, birds, and suspicious leaves. Demonstrates tireless commitment to patrolling perimeter at all hours. Maintains excellent situational awareness and quick reaction time.",
+      "highlights": []
+    },
+    {
+      "name": "Evening Exercise Program",
+      "position": "Zoomies Coordinator",
+      "startDate": "Ongoing",
+      "endDate": "",
+      "summary": "Leads daily bursts of energy around the house or backyard. Promotes family exercise and laughter through spontaneous sprints.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Canine Obedience School (unofficial)",
+      "area": "",
+      "studyType": "",
+      "score": "",
+      "courses": [
+        "Sit",
+        "Stay",
+        "Leave It",
+        "Come When Called"
+      ]
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Sit",
+      "level": "Expert",
+      "keywords": [
+        "Sit",
+        "Stay",
+        "Shake",
+        "Roll Over",
+        "High Five"
+      ]
+    },
+    {
+      "name": "Tennis Ball Retrieval",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Excellent listener",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Doorbell Early Warning System",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Master of tail wags and cuddles",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Zoomies Initiation",
+      "level": "Expert",
+      "keywords": []
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Dog Activities",
+      "keywords": [
+        "Long walks",
+        "belly rubs",
+        "peanut butter",
+        "chasing shadows",
+        "herding literally anything that moves"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": []
+}

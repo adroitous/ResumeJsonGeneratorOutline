@@ -1,0 +1,66 @@
+Hi I want you to imagine you're a custom curator of resume experience and I want you to highlight
+the candidates experiences that is tailored to the job. Please generate a tailored resume for 
+the applicant for the job.
+
+This will be a job description that I want the resume to be tailor to
+
+At .txt, our mission is to help AI speak the language of every application.
+
+.txt's provides high performance regular expression and context-free grammar (CFG) structured generation though C, C++, Python, and Rust libraries.
+
+We are the authors of outlines and outlines-core, both leading open source libraries (+10k ⭐️) for structured generation. In 2024, we raised $11.9 million which is fueling the efforts of our global, fully remote team to create software that goes beyond simple conversation.
+
+Read more about .txt and our technology on our blog.
+
+The Role
+We’re looking for an experienced Rust Developer to lead the creation of high-performance parsing engines, data structures, and algorithms. In this role, you’ll drive Rust projects that form the backbone of our solutions, collaborating closely with other teams to ensure smooth integration across our technology stack.
+
+What You Will Do
+Project Leadership: Initiate and drive the development of mission-critical Rust projects from conception through deployment.
+
+Performance Engineering: Write and optimize parsing code with a strong emphasis on performance, supported by automated benchmarking.
+
+Data Structures & Algorithms: Ability to debug grammars and design and implement efficient data structures for automata, finite-state machines, and text-based indexing/search.
+
+Cross-Functional Collaboration: Work with other teams to build production ready Rust components.
+
+Tooling & CI/CD: Utilize advanced profiling, debugging, and continuous integration tools to maintain and enhance code quality.
+
+About You 
+Proven Rust Experience: Demonstrated ability to lead and contribute to non-trivial, collaborative Rust projects.
+
+Professional Development: A track record in developing well-tested, high-performance software.
+
+Tooling Expertise: Expertise with code profiling and debugging. Experience automated workflows in CI.
+
+Multilanguage Proficiency: Ability to learn/work with the following technologies: CUDA, C, C++, Rust/Python bindings.
+
+Collaborative Mindset: Excellent communication skills and a proactive approach, ideally suited for an early-stage startup culture.
+
+Why You Should Join Us:
+🚀 Cutting-edge technology
+
+Structured generation is still a nascent technology. Innovation is not the exception, it’s the rule.
+
+⚖️ Work-life balance
+
+We don’t expect you to spend 80 hours per week at your desk, and we won’t either. We have lives outside of work, and want you too as well. Sometimes we will all need to be all-in, but it will be the exception rather than the norm.
+
+🌐 Remote first
+
+Work from anywhere in the world. We value both written communication and regular, real-time communication (especially Slack huddles and how they encourage organic, real-time collaboration).
+
+💸 Competitive compensation and benefits
+
+We pay market rate (adjusting for seed-stage startup) + equity options, offer health, dental, and vision insurance, and have a 401k (US Only). We’ll get you a GPU if you don’t have one already.
+
+Location
+.txt is a fully remote company with the majority of the team in the US and EU.
+
+To facilitate real-time collaboration, we require team members to be available, on a daily basis, for at least 3 hours of overlap with morning New York City (Eastern Time Zone) business hours, 8am - 1pm.
+
+Applying
+Please provide a 1-page resume in English.
+
+Kindly, do not apply to more than one position at a time.
+
