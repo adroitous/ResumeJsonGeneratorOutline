@@ -42,7 +42,7 @@ npm install @jsonresume/schema
 2. Optionally, create a job description file (e.g., prompts/sample_job.txt )
 3.  the generator:
 ```
-python ResumeGeneratorJSON.py --resume prompts/sample_resume.txt --output generated/my_resume.json
+python resume_generator_json.py --resume prompts/sample_resume.txt --output generated/my_resume.json
 
 Optional parameters:
 
@@ -117,7 +117,7 @@ Key Responsibilities
    
 ```   
    
-   ResumeGeneratorJSON.py --resume prompts/dog_resume.txt --job_description prompts/dog_jobdescription.txt --output generated/dog_resume.json
+   resume_generator_json.py --resume prompts/dog_resume.txt --job_description prompts/dog_jobdescription.txt --output generated/dog_resume.json
 ```
 
 3. Review the generated JSON :
