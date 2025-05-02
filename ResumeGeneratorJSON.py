@@ -37,6 +37,10 @@ def load_model(model_choice="openAI", resume_model_type="openai"):
             "gpt-4o-mini",
             api_key=os.environ["OPENAI_API_KEY"]
         )
+    elif model_choice == "Phi3":
+        model = outlines.models.transformers(
+        "microsoft/Phi-3-mini-4k-instruct",
+        )
     else:
         raise ValueError(f"Unknown model choice: {model_choice}")
     
@@ -73,11 +77,9 @@ def main():
     parser = argparse.ArgumentParser(description="Generate a JSON resume from a text prompt")
     parser.add_argument("--resume", type=str, help="Path to resume prompt file", default="prompts/sample_resume.txt")
     parser.add_argument("--job_description", type=str, help="Path to job description file", default="prompts/sample_job.txt")
-    parser.add_argument("--dog_job_description", type=str, help="Path to dog job description file")
-    parser.add_argument("--dog_job_resume", type=str, help="Path to dog job resume file")
     parser.add_argument("--output", type=str, help="Output JSON file path", default="generated/vincent.json")
     parser.add_argument("--seed", type=int, help="Random seed for generation", default=None)
-    parser.add_argument("--model", type=str, choices=["openAI", "llamaCpp", "SmolLM2"], 
+    parser.add_argument("--model", type=str, choices=["openAI", "llamaCpp", "SmolLM2", "Phi3"], 
                         help="LLM model to use", default="openAI")
     parser.add_argument("--resume_model", type=str, choices=["openai", "non-openai"], 
                         help="Resume schema model to use", default="openai")
@@ -97,16 +99,6 @@ def main():
         with open(args.job_description, "r") as file:
             prompt_text += "\n\nJob Description:\n" + file.read()
     
-    # Add dog job description to prompt if provided and exists
-    if args.dog_job_description and os.path.exists(args.dog_job_description):
-        with open(args.dog_job_description, "r") as file:
-            prompt_text += "\n\nDog Job Description:\n" + file.read()
-    
-    # Add dog job resume to prompt if provided and exists
-    if args.dog_job_resume and os.path.exists(args.dog_job_resume):
-        with open(args.dog_job_resume, "r") as file:
-            prompt_text += "\n\nDog Job Resume:\n" + file.read()
-
     # Create output directory if it doesn't exist
     os.makedirs(os.path.dirname(args.output), exist_ok=True)
 

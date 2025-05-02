@@ -42,8 +42,6 @@ class WorkItem(BaseModel):
 class VolunteerItem(BaseModel):
     organization: constr(max_length=100)
     position: constr(max_length=100)
-    startDate: constr(max_length=30)
-    endDate: Optional[constr(max_length=30)] = None 
     summary: Optional[constr(max_length=1000)] = None
     highlights: Optional[List[str]] = []
 
@@ -60,15 +58,15 @@ class EducationItem(BaseModel):
 
 class Award(BaseModel):
     title: constr(max_length=100)
-    date: constr(max_length=30)
-    awarder: constr(max_length=100)
+    date: Optional[constr(max_length=30)] = None
+    awarder: Optional[constr(max_length=100)] = None
     summary: Optional[constr(max_length=1000)] = None
 
 
 class Certificate(BaseModel):
     name: constr(max_length=100)
-    date: constr(max_length=30)
-    issuer: constr(max_length=100)
+    date: Optional[constr(max_length=30)] = None
+    issuer: Optional[constr(max_length=100)] = None
 
 
 class Publication(BaseModel):
