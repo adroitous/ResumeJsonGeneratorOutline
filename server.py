@@ -2,7 +2,9 @@ from flask import Flask, request, jsonify, send_from_directory
 import os
 import json
 import sys
-from ResumeGeneratorJSON import generate_resume
+from resume_generator_json import generate_resume
+import subprocess
+import threading
 
 app = Flask(__name__, static_folder='frontend')
 
@@ -15,6 +17,20 @@ def serve_frontend(path):
     return send_from_directory(app.static_folder, path)
 
 # API endpoint to generate resume JSON
+resume_server_process = None
+
+def start_resume_server():
+    global resume_server_process
+    if resume_server_process is None or resume_server_process.poll() is not None:
+        # Start the resume serve process in a new thread
+        resume_server_process = subprocess.Popen(
+            ["resume", "serve", "--port", "5001"],
+            cwd="generated",
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE
+        )
+        # Give the server a moment to start
+
 @app.route('/api/generate', methods=['POST'])
 def generate_resume_api():
     try:
@@ -38,7 +54,7 @@ def generate_resume_api():
         # Create temporary files for the resume and job description
         temp_resume_file = 'temp_resume.txt'
         temp_job_file = 'temp_job.txt'
-        temp_output_file = 'temp_output.json'
+        temp_output_file = 'generated/resume.json'
         
         # Write resume text to file
         with open(temp_resume_file, 'w') as f:
@@ -53,21 +69,31 @@ def generate_resume_api():
         prompt_text = resume_text
         if job_description:
             prompt_text += "\n\nJob Description:\n" + job_description
-        
-        # Use the generate_resume function from ResumeGeneratorJSON.py with selected model
+
         generate_resume(prompt_text, output_file=temp_output_file, model_choice=model_choice, resume_model_type=resume_model_type)
-        
+
         # Read the generated JSON
         with open(temp_output_file, 'r') as f:
             resume_json = json.load(f)
-        
+
+        # Export HTML using resume CLI
+        export_cmd = ["resume", "export", "resume.html"]
+        subprocess.run(export_cmd, cwd="generated", check=True)
+
+        # Start resume serve in background if not already running
+        threading.Thread(target=start_resume_server, daemon=True).start()
+
         # Clean up temporary files
-        for file in [temp_resume_file, temp_job_file, temp_output_file]:
+        for file in [temp_resume_file, temp_job_file]:
             if os.path.exists(file):
                 os.remove(file)
-        
-        return jsonify(resume_json)
-    
+
+        # Return both the JSON and the URL to the served HTML
+        return jsonify({
+            "resume_json": resume_json,
+            "resume_html_url": "http://localhost:5001"
+        })
+
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 

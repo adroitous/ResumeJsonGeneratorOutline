@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Vincent Lin",
-    "label": "Software Engineer",
+    "name": "Coffee the Dog",
+    "label": "Energetic Companion | Squirrel Surveillance Specialist | Snack Enthusiast",
     "image": "",
-    "email": "Lin.vincent97@gmail.com",
-    "phone": "626-592-9130",
-    "url": "https://github.com/adroitous",
-    "summary": "Software Engineer with extensive experience in backend development with a focus on high-performance systems. Proven ability in designing algorithms and working with various programming languages including C++, Python, and Rust. Strong background in automating processes and collaborating in cross-functional teams.",
+    "email": "woof@coffeethedog.dog",
+    "phone": "",
+    "url": "linkedin.com/in/coffeethedog",
+    "summary": "Loyal and enthusiastic 4-year-old Australian Shepherd with a proven track record in companionship, high-speed yard patrol, and advanced listening skills. Known for high energy, a friendly demeanor, and being the first to greet guests at the door. Seeking new opportunities to chase tennis balls, herd small humans, or simply be a very good dog.",
     "location": {
-      "address": "",
+      "address": "Your Backyard",
       "postalCode": "",
       "city": "",
       "countryCode": "",
@@ -16,76 +16,50 @@
     },
     "profiles": [
       {
-        "network": "GitHub",
-        "username": "adroitous",
-        "url": "https://github.com/adroitous"
+        "network": "LinkedIn",
+        "username": "coffeethedog",
+        "url": "linkedin.com/in/coffeethedog"
       }
     ]
   },
   "work": [
     {
-      "name": "Arista Networks",
-      "position": "Software Engineer",
-      "startDate": "2022-07-01",
-      "endDate": "2024-06-01",
-      "summary": "Focused on developing high-performance backend solutions. Expertise in test automation, telemetry design, and protocol implementation.",
-      "highlights": [
-        "Designed and implemented end-to-end testing solutions for BFD protocols.",
-        "Automated BFD testing with Jenkins, improving processes.",
-        "Led conditional restart design for BFD, achieving a 45% reduction in memory usage."
-      ]
+      "name": "Home Headquarters",
+      "position": "Couch Security Officer",
+      "startDate": "2021-01-01",
+      "endDate": "Present",
+      "summary": "Maintains vigilant presence on furniture, ensuring no crumbs are left uneaten. Specializes in detecting incoming delivery trucks before they even arrive. Provides emotional support and warmth during Netflix marathons.",
+      "highlights": []
     },
     {
-      "name": "General Dynamics Mission Systems",
-      "position": "Software Engineer III",
-      "startDate": "2019-09-01",
-      "endDate": "2022-07-01",
-      "summary": "Designed microservices and communication APIs for defense systems. Contributed to CI/CD pipelines for efficient software delivery.",
-      "highlights": [
-        "Led development of a middleware-agnostic API, enhancing communication patterns.",
-        "Automated deployment processes with GitLab CI/CD, improving efficiency."
-      ]
+      "name": "Backyard Operations Unit",
+      "position": "Squirrel Patrol Agent",
+      "startDate": "2020-03-01",
+      "endDate": "Present",
+      "summary": "Successfully barked away over 200 squirrels, birds, and suspicious leaves. Demonstrates tireless commitment to patrolling perimeter at all hours. Maintains excellent situational awareness and quick reaction time.",
+      "highlights": []
     },
     {
-      "name": "University of Chicago",
-      "position": "Research Assistant",
-      "startDate": "2018-06-01",
-      "endDate": "2018-09-01",
-      "summary": "Conducted research on time series algorithms, enhancing optimization methods.",
-      "highlights": [
-        "Implemented K-Shape algorithm in C, outperforming existing implementations in Python and MATLAB."
-      ]
-    },
-    {
-      "name": "Service Management Group",
-      "position": "Data Science Intern",
-      "startDate": "2018-01-01",
-      "endDate": "2018-02-01",
-      "summary": "Developed machine learning preprocessing pipelines with a focus on NLP techniques.",
-      "highlights": [
-        "Implemented Word2Vec and GloVe for embedding models, improving ML preprocessing efficiency by 50%."
-      ]
+      "name": "Evening Exercise Program",
+      "position": "Zoomies Coordinator",
+      "startDate": "",
+      "endDate": "Ongoing",
+      "summary": "Leads daily bursts of energy around the house or backyard. Promotes family exercise and laughter through spontaneous sprints.",
+      "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Williams College",
-      "area": "Bachelor in Philosophy (with Computer Science focus)",
-      "studyType": "Bachelor's",
+      "institution": "Canine Obedience School (unofficial)",
+      "area": "Dog Training",
+      "studyType": "Graduated",
       "score": "",
       "courses": [
-        "Algorithms Design and Analysis",
-        "Computer Organization",
-        "Data Structures and Advanced Programming",
-        "Real Analysis",
-        "Linear Algebra",
-        "Natural Language Processing",
-        "Statistics & Data Analysis",
-        "Discrete Mathematics",
-        "Theory of Computation",
-        "Operating Systems",
-        "Principles of Programming Languages"
+        "Sit",
+        "Stay",
+        "Leave It",
+        "Come When Called"
       ]
     }
   ],
@@ -94,74 +68,64 @@
   "publications": [],
   "skills": [
     {
-      "name": "Backend Development",
-      "level": "Advanced",
-      "keywords": [
-        "C++",
-        "Python",
-        "Java",
-        "bash",
-        "Kafka",
-        "Cassandra",
-        "DDS",
-        "GRPC",
-        "protobuf"
-      ]
+      "name": "Sit",
+      "level": "Expert",
+      "keywords": []
     },
     {
-      "name": "Machine Learning",
-      "level": "Intermediate",
-      "keywords": [
-        "numpy",
-        "scikit-learn",
-        "pandas",
-        "PyTorch",
-        "Word2Vec",
-        "GloVe"
-      ]
+      "name": "Stay",
+      "level": "Expert",
+      "keywords": []
     },
     {
-      "name": "Software Management",
-      "level": "Intermediate",
+      "name": "Shake",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Roll Over",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "High Five",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Tennis Ball Retrieval",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Excellent listener",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Doorbell Early Warning System",
+      "level": "Expert",
+      "keywords": []
+    },
+    {
+      "name": "Master of tail wags and cuddles",
+      "level": "Expert",
+      "keywords": []
+    }
+  ],
+  "languages": [],
+  "interests": [
+    {
+      "name": "Dog Activities",
       "keywords": [
-        "SCRUM",
-        "Jira",
-        "Confluence",
-        "GitLab",
-        "GitHub"
+        "Long walks",
+        "Belly rubs",
+        "Peanut butter",
+        "Chasing shadows",
+        "Herding literally anything that moves"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native proficiency"
-    },
-    {
-      "language": "English",
-      "fluency": "Professional working proficiency"
-    }
-  ],
-  "interests": [],
   "references": [],
-  "projects": [
-    {
-      "name": "Middleware Agnostic Communication API",
-      "startDate": "2020-01-01",
-      "endDate": "2022-01-01",
-      "description": "Designed a middleware agnostic API, allowing seamless integration across various communication systems.",
-      "highlights": [
-        "Enabled publish/subscribe and request/reply communication patterns, enhancing system flexibility."
-      ]
-    },
-    {
-      "name": "BFD Telemetry for CloudVision",
-      "startDate": "2023-01-01",
-      "endDate": "2024-01-01",
-      "description": "Developed telemetry data ingestion methods for CloudVision platform, optimizing performance and usability in the cloud.",
-      "highlights": [
-        "Aligned telemetry output to fit CloudVision's operational patterns, improving data handling."
-      ]
-    }
-  ]
+  "projects": []
 }

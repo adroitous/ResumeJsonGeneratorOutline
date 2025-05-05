@@ -74,7 +74,10 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Display the result
             displayResult(data);
-            
+            // Show HTML resume link if available
+            if (data.resume_html_url) {
+                showHtmlResumeLink(data.resume_html_url);
+            }
         } catch (error) {
             console.error('Error generating resume JSON:', error);
             alert(`Error generating resume JSON: ${error.message}`);
@@ -281,3 +284,23 @@ Preferred Traits
         updateJobCharCount();
     }
 });
+
+// Add this function at the end of the file
+function showHtmlResumeLink(url) {
+    let htmlLink = document.getElementById('html-resume-link');
+    if (!htmlLink) {
+        htmlLink = document.createElement('a');
+        htmlLink.id = 'html-resume-link';
+        htmlLink.className = 'btn-secondary';
+        htmlLink.target = '_blank';
+        htmlLink.style.marginLeft = '10px';
+        // Insert after download button
+        const downloadBtn = document.getElementById('download-json');
+        if (downloadBtn && downloadBtn.parentNode) {
+            downloadBtn.parentNode.appendChild(htmlLink);
+        }
+    }
+    htmlLink.href = url;
+    htmlLink.textContent = 'View HTML Resume';
+    htmlLink.style.display = 'inline-block';
+}
