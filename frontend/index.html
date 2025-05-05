@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume JSON Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Resume JSON Generator</h1>
+            <nav>
+                <ul>
+                    <li><a href="#input-section">Create Resume</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>JSON Resume Generator</h2>
+            <p>Convert your resume to JSON format and tailor it to specific job descriptions</p>
+        </div>
+    </section>
+
+    <section id="main-content" class="main-content">
+        <div class="container">
+            <div class="two-panel-layout">
+                <!-- Left Panel: Input Form -->
+                <div id="input-section" class="panel input-panel">
+                    <h2>Create Your Resume</h2>
+                    <div class="form-container">
+                        <form id="resume-form">
+                            <div class="input-row">
+                                <div class="form-group">
+                                    <label for="resume-input">Your Resume</label>
+                                    <textarea id="resume-input" rows="8" maxlength="5000" placeholder="Paste your resume text here..."></textarea>
+                                    <div class="char-counter"><span id="resume-char-count">0</span>/5000 characters</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="job-description">Job Description (Optional)</label>
+                                    <textarea id="job-description" rows="8" maxlength="3000" placeholder="Paste the job description to tailor your resume..."></textarea>
+                                    <div class="char-counter"><span id="job-char-count">0</span>/3000 characters</div>
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="form-group">
+                                    <label for="model-choice">Model</label>
+                                    <select id="model-choice" name="model-choice">
+                                        <option value="openAI" selected>OpenAI</option>
+                                        <option value="llamaCpp">LLaMA CPP</option>
+                                        <option value="SmolLM2">SmolLM2</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="resume-model-type">Resume Schema</label>
+                                    <select id="resume-model-type" name="resume-model-type">
+                                        <option value="openai" selected>OpenAI</option>
+                                        <option value="non-openai">Non-OpenAI</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn-primary">Generate JSON Resume</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Right Panel: Results -->
+                <div id="result-section" class="panel result-panel hidden">
+                    <h2>Generated JSON Resume</h2>
+                    <div class="result-container">
+                        <div class="result-actions">
+                            <button id="copy-json" class="btn-secondary"><i class="fas fa-copy"></i> Copy JSON</button>
+                            <button id="download-json" class="btn-secondary"><i class="fas fa-download"></i> Download JSON</button>
+                            <button id="back-to-form" class="btn-secondary"><i class="fas fa-arrow-left"></i> Back</button>
+                        </div>
+                        <pre id="json-output"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Resume JSON Generator</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>The Resume JSON Generator was created to solve several common challenges in the job application process. It leverages the power of Large Language Models (LLMs) to understand natural language descriptions and convert them into structured data.</p>
+                    <p>Key features include:</p>
+                    <ul>
+                        <li>Convert natural language resume descriptions to structured JSON</li>
+                        <li>Tailor JSON resume to specific job descriptions</li>
+                        <li>Easy integration with JSON Resume ecosystem for creating styled web and PDF resumes</li>
+                    </ul>
+                    <p>This tool makes it easier to maintain, update, and share your professional information across different platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Resume JSON Generator. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
